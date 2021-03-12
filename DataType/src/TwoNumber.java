@@ -7,10 +7,10 @@ public class TwoNumber {
 		
 		int a, b;
 		
-		System.out.println("Ã¹ ¹øÂ° Á¤¼ö¸¦ ÀÔ·Â ÇÏ½Ê½Ã¿À.");
+		System.out.println("ì²« ë²ˆì§¸ ì •ìˆ˜ë¥¼ ì…ë ¥ í•˜ì‹­ì‹œì˜¤.");
 		a = sc.nextInt();
 		
-		System.out.println("µÎ ¹øÂ° Á¤¼ö¸¦ ÀÔ·Â ÇÏ½Ê½Ã¿À.");
+		System.out.println("ë‘ ë²ˆì§¸ ì •ìˆ˜ë¥¼ ì…ë ¥ í•˜ì‹­ì‹œì˜¤.");
 		b = sc.nextInt();
 		
 		System.out.printf("%d + %d = %d \n", a, b, a+b);
@@ -18,5 +18,6 @@ public class TwoNumber {
 		System.out.printf("%d * %d = %d \n", a, b, a*b);
 		System.out.printf("%d / %d = %.2f \n", a, b, (double)a/b);
 		
+		sc.close();
 	}
 }
